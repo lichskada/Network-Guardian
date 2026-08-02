@@ -5,7 +5,7 @@ a self contained network monitoring, mobile [android] application build. includi
 this app is not compatible with any of your active, VPN, security measures; since it relies on the VPNservice to deliver. but.., if you cannot afford to lower those security measures. then i have the solution!
 for now, you'll have to contact me, and we'll work out an exchange. [soon enough tho'
 
-in the meantime, yous can just download the standard vpnService, 'NetGuard-v3.apk' from the files section here.
+in the meantime, yous can just download the standard vpnService, 'ntG-Dv3-3.apk' from the files section here.
 [the source-code is also laying around here somewhere; i think. xD lol]
 meaning; you can check it – to make sure there's nothing devious going on. and, if you're adventurous, you can try building your own custom package version.
 
