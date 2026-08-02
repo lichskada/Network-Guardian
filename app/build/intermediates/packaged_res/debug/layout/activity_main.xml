@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#121212" android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="#1E1E1E" android:gravity="center_vertical"
+        android:orientation="horizontal" android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtEngineStatus"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="MODE: Option A Local VPN (Checking...)"
+            android:textColor="#FFC107" android:textSize="12sp" android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnVpnToggle"
+            android:layout_width="wrap_content" android:layout_height="36dp"
+            android:backgroundTint="#00E676" android:text="START VPN"
+            android:textColor="#000000" android:textSize="11sp" android:textStyle="bold" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:clipToPadding="false" android:padding="4dp" />
+</LinearLayout>

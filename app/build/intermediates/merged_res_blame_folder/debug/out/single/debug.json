@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.networkmonitor.app-merged_res-4:/drawable_nt_guardg.png.flat",
+        "source": "com.example.networkmonitor.app-main-6:/drawable/nt_guardg.png"
+    },
+    {
+        "merged": "com.example.networkmonitor.app-merged_res-4:/layout_activity_main.xml.flat",
+        "source": "com.example.networkmonitor.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.networkmonitor.app-merged_res-4:/layout_activity_detail.xml.flat",
+        "source": "com.example.networkmonitor.app-main-6:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.example.networkmonitor.app-merged_res-4:/layout_item_app.xml.flat",
+        "source": "com.example.networkmonitor.app-main-6:/layout/item_app.xml"
+    }
+]

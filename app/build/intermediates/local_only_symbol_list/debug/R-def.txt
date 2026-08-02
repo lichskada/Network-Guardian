@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+drawable nt_guardg
+id btnVpnToggle
+id graphView
+id imgIcon
+id recyclerView
+id txtDetails
+id txtDownloadSpeed
+id txtEngineStatus
+id txtMobile
+id txtName
+id txtUploadSpeed
+id txtWifi
+layout activity_detail
+layout activity_main
+layout item_app

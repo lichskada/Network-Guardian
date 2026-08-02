@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.networkmonitor"
+4    android:versionCode="6"
+5    android:versionName="1.1-OptionA" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:5:5-67
+11-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+12-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:6:5-114
+12-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:6:22-75
+13    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+13-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:7:5-119
+13-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:8:5-75
+14-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:8:22-72
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:9:5-77
+15-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:10:5-77
+16-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:10:22-74
+17
+18    <permission
+18-->[androidx.core:core:1.10.1] /root/.gradle/caches/transforms-3/1806f51007711a249769b95351c1d9b3/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+19        android:name="com.example.networkmonitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.10.1] /root/.gradle/caches/transforms-3/1806f51007711a249769b95351c1d9b3/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.10.1] /root/.gradle/caches/transforms-3/1806f51007711a249769b95351c1d9b3/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.example.networkmonitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.10.1] /root/.gradle/caches/transforms-3/1806f51007711a249769b95351c1d9b3/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.10.1] /root/.gradle/caches/transforms-3/1806f51007711a249769b95351c1d9b3/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:12:5-43:19
+25        android:name="com.example.networkmonitor.NetworkMonitorApplication"
+25-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:17:9-50
+26        android:allowBackup="true"
+26-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:13:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.10.1] /root/.gradle/caches/transforms-3/1806f51007711a249769b95351c1d9b3/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:icon="@drawable/nt_guardg"
+30-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:14:9-43
+31        android:label="Network Monitor"
+31-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:15:9-40
+32        android:supportsRtl="true"
+32-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:16:9-35
+33        android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar" >
+33-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:18:9-79
+34        <activity
+34-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:20:9-27:20
+35            android:name="com.example.networkmonitor.MainActivity"
+35-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:21:13-41
+36            android:exported="true" >
+36-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:22:13-36
+37            <intent-filter>
+37-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:23:13-26:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:24:17-69
+38-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:24:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:25:17-77
+40-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:25:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:29:9-32:58
+44            android:name="com.example.networkmonitor.AppDetailActivity"
+44-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:30:13-46
+45            android:exported="false"
+45-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:31:13-37
+46            android:parentActivityName="com.example.networkmonitor.MainActivity" />
+46-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:32:13-55
+47
+48        <service
+48-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:34:9-41:19
+49            android:name="com.example.networkmonitor.LocalVpnService"
+49-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:35:13-44
+50            android:exported="false"
+50-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:37:13-37
+51            android:permission="android.permission.BIND_VPN_SERVICE" >
+51-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:36:13-69
+52            <intent-filter>
+52-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:38:13-40:29
+53                <action android:name="android.net.VpnService" />
+53-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:39:17-65
+53-->/content/NetworkMonitorApp/app/src/main/AndroidManifest.xml:39:25-62
+54            </intent-filter>
+55        </service>
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/ee9a842437616fcd6a6c543421f57602/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/ee9a842437616fcd6a6c543421f57602/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+59            android:authorities="com.example.networkmonitor.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/ee9a842437616fcd6a6c543421f57602/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/ee9a842437616fcd6a6c543421f57602/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/ee9a842437616fcd6a6c543421f57602/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/ee9a842437616fcd6a6c543421f57602/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/ee9a842437616fcd6a6c543421f57602/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/7ce01f5e6d21205ef87942825c15aa45/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/7ce01f5e6d21205ef87942825c15aa45/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/7ce01f5e6d21205ef87942825c15aa45/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+67        </provider>
+68    </application>
+69
+70</manifest>
