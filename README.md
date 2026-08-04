@@ -2,10 +2,12 @@
   ~
 a self contained network monitoring, mobile [android] application build. including real-time, app specific, display capture, of both mobile data, and WiFi internet traffic.., idk, maybe it'll help you identify a leak.
 
-this app is not compatible with any of your active, VPN, security measures; since it relies on the VPNservice to deliver. but.., if you cannot afford to lower those security measures. then i have the solution!
-for now, you'll have to contact me, and we'll work out an exchange. [soon enough tho'
+this app is not compatible with any of your active, VPN, security measures; since it relies on the VPNservice to deliver. but.., if you cannot afford to lower those security measures. then i have the solution! as it turns out, i didn't actually need the VPNservice slot at all.
+for now, you can download my personal version here:
+https://www.deviantart.com/qyr97/art/Network-Guardian-1364632874
+[soon enough.., ✦
 
-in the meantime, yous can just download the standard vpnService, 'ntG-Dv3-3.apk' from the files section here.
+in the meantime, yous can just download the standard vpnService, 'ntG-Dv3-3.apk' from the files section here. for FREE!
 [the source-code is also laying around here somewhere; i think. xD lol]
 meaning; you can check it – to make sure there's nothing devious going on. and, if you're adventurous, you can try building your own custom package version.
 
